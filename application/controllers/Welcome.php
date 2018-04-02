@@ -26,6 +26,5 @@ class Welcome extends CI_Controller {
 	public function newpage()
     {
 	    $this->load->view('welcome_message');
-
     }
 }
